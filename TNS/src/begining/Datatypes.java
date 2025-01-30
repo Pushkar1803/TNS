@@ -3,7 +3,6 @@ package begining;
 public class Datatypes {
 	public static void main(String[] Args) {
 		
-	
 	System.out.println("Hello");
 	
 	char chr=65;
@@ -32,8 +31,6 @@ public class Datatypes {
 	System.out.println("min range of long" + longMin);
 	System.out.println("max range of long" + longMax);
 
-
-
-
+	
 }
 }
