@@ -6,6 +6,7 @@ public class TypeCasting {
 		// TODO Auto-generated method stub
 		
 		//widening is a implicit type casting 
+		// narrowing is explicit type casting
 		
 		byte b=10;
 		int l=b;
@@ -17,7 +18,7 @@ public class TypeCasting {
 		
 		char ch='A';
 		int i=ch;
-		System.out.println(i);  // it is called explicit typecasting or widening
+		System.out.println(i);  // it is called explicit typecasting or narrowing
 		
 		double l1=10.52f; //byte in decimal
 		long lo=(long)l1;    //syntax for narrowing typecasting
