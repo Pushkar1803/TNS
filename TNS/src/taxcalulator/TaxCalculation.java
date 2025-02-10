@@ -17,14 +17,14 @@ public class TaxCalculation {
 				person.setTax(0);
 				}
 			if(person.getIncome() > 200000 && person.getIncome()<=500000) {
-				person.setTax(person.getIncome()-50000 * 0.1 );
+				person.setTax((person.getIncome()-200000) * 0.1 );
 			}
 			if(person.getIncome() > 500000 && person.getIncome()<=800000) {
-				person.setTax(person.getIncome()-800000 * 0.2 + 300000 );
+				person.setTax((person.getIncome()-500000 )* 0.2 + 300000 );
 				
 			}
 			if(person.getIncome() > 800000 && person.getIncome()<=1200000) {
-				person.setTax(person.getIncome()-1200000 * 0.3 + 900000 );
+				person.setTax((person.getIncome()-800000) * 0.3 + 900000 );
 				
 			}
 			
